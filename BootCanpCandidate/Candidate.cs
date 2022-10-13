@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace BootCampCandidate
 {
+    //Making class of candidate
     public class Candidate
     {
-
+        //Setting Attributes
         private string name;
         private double cgpa;
         private string city;
         private double avg;
 
-
+        //Making method
         public Candidate(string name, double cgpa, string city)
         {
             this.name = name;
@@ -22,6 +23,7 @@ namespace BootCampCandidate
             this.city = city;
         }
 
+        //Overloading method 
         public Candidate(string name, double cgpa, string city, double avg)
         {
             this.name = name;
